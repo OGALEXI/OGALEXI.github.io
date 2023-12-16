@@ -1,0 +1,86 @@
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-bg-img {
+    height: 100vh;
+    background-image: url('../assets/2109.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
+
+#main-name {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    top: 15%;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 36px;
+    margin: 0px;
+} 
+
+.typed-text {
+    color: #dd1490;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background: #dd1490;
+}
+
+.cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+      background: #dd1490;
+    }
+    40%, 50% {
+      background: transparent;
+    }
+}
+
+#what-i-do {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.col-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', monospace;
+}
+
+.abt-me-ps {
+    width: 60%;
+    background-color: rgba(48, 48, 48, 0.685);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.abt-me-titles {
+    border-bottom: 2px solid #dd1490;
+}
+
+.sctn-title {
+    letter-spacing: .1rem;
+}
