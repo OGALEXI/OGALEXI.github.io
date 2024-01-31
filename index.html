@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/nav.css">
 </head>
@@ -29,7 +30,9 @@
                 <ul class="sidebar-menu-inner">
                 <li><img src="./assets/alex_headshot.JPEG" id="sidebar-img"></li>
                 <li class="side-anchors"><a href="#abt-me-sctn">About Me</a></li>
-                <li class="side-anchors"><a href="#portfolio-sctn" target="_blank">Portfolio</a></li>
+                <li class="side-anchors"><a href="#portfolio-sctn">Portfolio</a></li>
+                <li class="side-anchors"><a href="#experience-sctn">Experience</a></li>
+                <li class="side-anchors"><a href="#contact-me-sctn">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,8 +44,7 @@
 
     <section id="abt-me-sctn" class="col-section">
         <h2 class="sctn-title">ABOUT ME</h2>
-        <p class="abt-me-ps">Greetings! I'm Alex, a passionate full-stack software engineer with a knack for weaving the 
-            intricate threads of code to create seamless digital experiences. 
+        <p class="abt-me-ps">Greetings! I'm Alex, a passionate full-stack software engineer based in Colorado. 
             Over the past two and a half years, I've immersed myself in the world 
             of web and game development, embracing the ever-evolving landscape of technology.</p>
         <h3 class="abt-me-titles">Professional Journey</h3>
@@ -77,8 +79,90 @@
 
     <section id="portfolio-sctn" class="col-section">
         <h2 class="sctn-title">PORTFOLIO</h2>
+        <h3>We The Pixies</h3>
+        <div class="prjct-cards">
+            <img src="./assets/WeThePixies.png" class="prjct-img">
+            <div class="prjct-description">
+                <p>A volunteer based remake of the 2008 Disney video game, Pixie Hollow Online.</p>
+                <a href="https://www.wethepixies.net/" target="_blank"><span class="material-symbols-outlined">
+                    open_in_new
+                </span></a>
+            </div>
+        </div>
+        <h3>FireBnB</h3>
+        <div class="prjct-cards">
+            <img src="./assets/FireBnb.png" class="prjct-img">
+            <div class="prjct-description">
+                <p>Full-stack application mirroring Airbnb's functionalities.</p>
+                <a href="https://firebnb-5js9.onrender.com/" target="_blank"><span class="material-symbols-outlined">
+                    open_in_new
+                </span></a>
+            </div>
+        </div>
+        <h3>QRCheck'd</h3>
+        <div class="prjct-cards">
+            <img src="./assets/QRCheckd.png" class="prjct-img">
+            <div class="prjct-description">
+                <p>An application that uses QR codes to take attendance.</p>
+                <!-- <a href="https://www.wethepixies.net/" target="_blank"><span class="material-symbols-outlined">open_in_new</span></a> -->
+            </div>
+        </div>
     </section>
-
+    <section id="experience-sctn" class="col-section">
+        <h2 class="sctn-title">EXPERIENCE</h2>
+        <div id="experience-box">
+            <div class="exp-boxes">
+                <h3 class="exp-job">App Academy</h3>
+                <h4 class="time-worked">2022 - Current</h4>
+                <ul class="exp-roles">
+                    <li>Responsible for teaching modern Full 
+                        Stack Software Engineering to working 
+                        professionals seeking to change careers.
+                    </li>
+                    <li>Instructed in modern Javascript, Python, 
+                        data structures and algorithms, and methodologies 
+                        and conventions on a daily basis.
+                    </li>
+                    <li>
+                        Managed and mentored Junior Instructors 
+                        by upskilling their knowledge on the curriculum, 
+                        showcasing best practices for teaching adults, 
+                        and completing performance reviews and feedback
+                        to help them grow professionally.
+                    </li>
+                </ul>
+            </div>
+            <div class="exp-boxes">
+                <h3 class="exp-job">iD Tech</h3>
+                <h4 class="time-worked">2022 - 2023</h4>
+                <ul class="exp-roles">
+                    <li>
+                        Teaching Javascript, Python, and 
+                        fundamental Full Stack development 
+                        principles to children and teens 
+                        within an online summer camp environment.
+                    </li>
+                    <li>
+                        Providing code review for students, 
+                        while also showcasing debugging skills 
+                        to help improve their ability to become
+                        self-suffcient software developers.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact-me-sctn" class="col-section">
+        <h2 class="sctn-title">CONTACT ME</h2>
+        <div id="contact-info">
+            <h3 class="contacts">alexibettinger@gmail.com</h3>
+            <h3 class="contacts">719-359-6047</h3>
+            <a class="git-linkd" href="https://github.com/OGALEXI" target="_blank"><h3 class="contacts">Github</h3></a>
+            <a class="git-linkd" href="https://www.linkedin.com/in/alexi-bettinger/" target="_blank"><h3 class="contacts">LinkedIn</h3></a>
+        </div>
+    </section>
+    <footer id="very-bottom">
+    </footer>
     <script src="./typing.js"></script>
 </body>
 </html>

@@ -29,7 +29,7 @@ body {
     top: 15%;
     position: absolute;
     font-family: 'Roboto Mono', monospace;
-    font-size: 36px;
+    font-size: 150%;
     margin: 0px;
 } 
 
@@ -83,4 +83,90 @@ body {
 
 .sctn-title {
     letter-spacing: .1rem;
+    font-size: 32px;
+}
+
+.prjct-cards {
+    width: 60%;
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prjct-cards:hover {
+    border: 1px solid #dd1490
+}
+
+.prjct-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.prjct-description {
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+.material-symbols-outlined {
+    color: #dd1490;
+    padding: 0px 5px 0px 5px
+}
+
+#very-bottom {
+    height: 3rem;
+    background-color: #dd1490b7;
+    width: 100vw;
+}
+
+#experience-box {
+    width: 60%;
+}
+
+.exp-job {
+    font-size: 26px;
+    border-bottom: 2px solid #dd1490;
+    width: fit-content
+}
+
+.exp-title {
+    display: flex;
+    align-items: center;
+}
+
+.time-worked {
+    background-color: rgba(48, 48, 48, 0.685);
+    width: fit-content;
+    padding: .5rem 1rem .5rem 1rem ;
+    border-radius: 3px;
+}
+
+.exp-roles > li {
+    margin: 1rem;
+}
+
+#contact-info {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.contacts {
+    background-color: rgba(48, 48, 48, 0.685);
+    width: fit-content;
+    padding: .5rem 1rem .5rem 1rem ;
+    border-radius: 3px;
+}
+
+.git-linkd {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
