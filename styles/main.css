@@ -170,3 +170,13 @@ body {
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 850px) {
+    #contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
