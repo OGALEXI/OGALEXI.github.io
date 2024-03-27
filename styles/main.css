@@ -151,6 +151,14 @@ body {
     margin: 1rem;
 }
 
+#exp-roles-sub {
+    margin: .5rem;
+}
+
+#exp-roles-sub > li {
+    margin: .5rem;
+}
+
 #contact-info {
     display: flex;
     width: 70%;
